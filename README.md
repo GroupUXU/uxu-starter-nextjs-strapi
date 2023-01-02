@@ -1,0 +1,1 @@
+# uxu-starter-nextjs-strapi
