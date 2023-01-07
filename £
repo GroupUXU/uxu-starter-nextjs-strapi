@@ -1,0 +1,18 @@
+feat: add postgreSQL
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch feat/backend-postgresql
+# Your branch is up to date with 'origin/feat/backend-postgresql'.
+#
+# Changes to be committed:
+#	modified:   apps/backend/.env.example
+#	deleted:    apps/backend/Dockerfile
+#	modified:   apps/backend/config/database.ts
+#	deleted:    apps/backend/database/migrations/.gitkeep
+#	modified:   apps/backend/docker-compose.yml
+#	modified:   apps/backend/package.json
+#	deleted:    package-lock.json
+#	modified:   package.json
+#	renamed:    apps/backend/yarn.lock -> yarn.lock
+#
