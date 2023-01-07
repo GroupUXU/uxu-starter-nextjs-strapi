@@ -10,10 +10,12 @@
     "@nrwl/next": "15.4.2",
     "@strapi/plugin-i18n": "4.5.4",
     "@strapi/plugin-users-permissions": "4.5.4",
+    "@strapi/provider-upload-aws-s3": "^4.5.4",
     "@strapi/strapi": "4.5.4",
-    "better-sqlite3": "7.4.6",
     "core-js": "^3.6.5",
     "next": "13.0.0",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
@@ -22,6 +24,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "react-select": "^5.7.0",
     "@babel/preset-react": "^7.14.5",
     "@nrwl/cypress": "15.4.2",
     "@nrwl/eslint-plugin-nx": "15.4.2",
