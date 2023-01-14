@@ -1,7 +1,6 @@
 ############################
 # compiled output
 ############################
-
 dist
 tmp
 /out-tsc
@@ -9,7 +8,6 @@ tmp
 ############################
 # IDEs and editors
 ############################
-
 /.idea
 .project
 .classpath
@@ -21,7 +19,6 @@ tmp
 ############################
 # IDE - VSCode
 ############################
-
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -31,7 +28,6 @@ tmp
 ############################
 # misc
 ############################
-
 /.sass-cache
 /connect.lock
 /coverage
@@ -44,7 +40,6 @@ testem.log
 ############################
 # OS X
 ############################
-
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -53,18 +48,14 @@ Icon
 .Trashes
 ._*
 
-
 ############################
 # Linux
 ############################
-
 *~
-
 
 ############################
 # Windows
 ############################
-
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -74,11 +65,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-
 ############################
 # Packages
 ############################
-
 *.7z
 *.csv
 *.dat
@@ -103,22 +92,18 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
-
 ############################
 # Logs and databases
 ############################
-
 .tmp
 *.log
 *.sql
 *.sqlite
 *.sqlite3
 
-
 ############################
 # Misc.
 ############################
-
 *#
 ssl
 .idea
@@ -129,28 +114,23 @@ public/uploads/*
 ############################
 # Node.js
 ############################
-
 lib-cov
 lcov.info
 pids
 logs
 results
 node_modules
-package-lock.json
-yarn-lock.json
 .node_history
 
 ############################
 # Tests
 ############################
-
 testApp
 coverage
 
 ############################
 # Strapi
 ############################
-
 .env
 license.txt
 exports
@@ -158,7 +138,6 @@ exports
 dist
 build
 .strapi-updater.json
-
 
 ############################
 # Next.js
