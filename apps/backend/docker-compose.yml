@@ -1,13 +1,17 @@
 # path: ./docker-compose.yml
 
-version: '0.0.1'
+version: '3'
 services:
-  db:
-    image: postgres:14.1-alpine
+  postgres:
+    container_name: postgres
+    image: postgres:14-alpine
+    networks:
+      - default
     restart: always
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
     ports:
       - '5432:5432'
     volumes:
