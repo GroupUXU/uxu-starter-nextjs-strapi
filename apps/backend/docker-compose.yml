@@ -1,5 +1,6 @@
 # path: ./docker-compose.yml
 
+<<<<<<< HEAD
 version: '3'
 services:
   postgres:
