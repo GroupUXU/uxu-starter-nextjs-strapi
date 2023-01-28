@@ -1,5 +1,6 @@
 # path: ./docker-compose.yml
 
+
 version: '3.3'
 services:
   postgredb:
@@ -16,7 +17,6 @@ services:
       - 5432:5432
     expose:
       - 5432
-
 networks:
   default:
     name: postgre-service_default
